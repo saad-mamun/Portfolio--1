@@ -13,7 +13,7 @@ const Home = () => {
         <div>
           <img
             className="w-[198px] h-[223px] md:w-[400px] md:h-[450px] lg:w-[617px] lg:h-[696px]"
-            src="public\image\main.png.png"
+            src="public\image\main.png"
             alt="Profile Logo"
           />
         </div>
