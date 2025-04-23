@@ -1,9 +1,8 @@
 import React from "react";
 import { FaFileDownload } from "react-icons/fa";
-
+import { GiCheckMark } from "react-icons/gi";
 
 const About = () => {
-
   const fName = "Liton";
   const lName = "Ali";
   const Frelance = "Available";
@@ -12,9 +11,7 @@ const About = () => {
   const Email = "mdlitonali9118@gmail.com";
   const Address = "Rajshahi, Bangladesh";
   const Phone = "+8801791182660";
-  const exparience = "1+"
-
-
+  const exparience = "1+";
 
   return (
     <section>
@@ -127,6 +124,43 @@ const About = () => {
             </div>
           </div>
         </div>
+          <div className="container mx-auto flex flex-col items-center pt-30 ">
+            <h1 className="font-semibold text-2xl py-6">
+              I've been working with the following technologies
+            </h1>
+            <div className="flex flex-row gap-5">
+              <h1 className="flex items-center gap-1">
+                <GiCheckMark />
+                <h2 className="font-bold tracking-wide">REACT.JS</h2>
+              </h1>
+              <h1 className="flex items-center gap-1">
+                <GiCheckMark />
+                <h2 className="font-bold tracking-wide">JAVASCRIPT</h2>
+              </h1>
+              <h1 className="flex items-center gap-1">
+                <GiCheckMark />
+                <h2 className="font-bold tracking-wide">TYPESCRIPT</h2>
+              </h1>
+              <h1 className="flex items-center gap-1">
+                <GiCheckMark />{" "}
+                <h2 className="font-bold tracking-wide">HTML5</h2>
+              </h1>
+            </div>
+            <div className="flex flex-row gap-5 pt-2">
+              <h1 className="flex items-center gap-1">
+                <GiCheckMark />
+                <h2 className="font-bold tracking-wide">REACT ROUTER</h2>
+              </h1>
+              <h1 className="flex items-center gap-1">
+                <GiCheckMark />
+                <h2 className="font-bold tracking-wide">TAILWIND CSS</h2>
+              </h1>
+              <h1 className="flex items-center gap-1">
+                <GiCheckMark />
+                <h2 className="font-bold tracking-wide">Material UI</h2>
+              </h1>
+            </div>
+          </div>
       </div>
     </section>
   );
