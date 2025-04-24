@@ -3,20 +3,20 @@ import { FaFileDownload } from "react-icons/fa";
 import { GiCheckMark } from "react-icons/gi";
 
 const About = () => {
-  const fName = "Liton";
-  const lName = "Ali";
-  const Frelance = "Available";
-  const Language = "English, Bangla";
-  const Country = "Bangladeshi";
-  const Email = "mdlitonali9118@gmail.com";
-  const Address = "Rajshahi, Bangladesh";
-  const Phone = "+8801791182660";
+  const fName = " Liton";
+  const lName = " Ali";
+  const Frelance = " Available";
+  const Language = " English, Bangla";
+  const Country = " Bangladeshi";
+  const Email = " mdlitonali9118@gmail.com";
+  const Address = " Rajshahi, Bangladesh";
+  const Phone = " +8801791182660";
   const exparience = "1+";
   const projects = "50+";
 
   return (
     <section>
-      <div className="pb-16">
+      <div className="px-2 md:px-0 pb-16">
         {/* top section */}
         <div className="bg-[#F5F5F5]/30">
           <div className="container mx-auto py-2 md:py-5 lg:py-10">
@@ -142,35 +142,35 @@ const About = () => {
             </span>
           </h1>
           <div className="flex flex-row gap-5">
-            <h1 className="flex items-center gap-1 text-[10px] md:text-base">
-              <GiCheckMark classname="text-[#FF9C01]" />
+            <div className="flex items-center gap-1 text-[10px] md:text-base">
+              <GiCheckMark />
               <h2 className="font-medium tracking-wide">REACT.JS</h2>
-            </h1>
-            <h1 className="flex items-center gap-1 text-[10px] md:text-base">
-              <GiCheckMark classname="text-[#FF9C01]" />
+            </div>
+            <div className="flex items-center gap-1 text-[10px] md:text-base">
+              <GiCheckMark />
               <h2 className="font-bold   tracking-wide">JAVASCRIPT</h2>
-            </h1>
-            <h1 className="flex items-center gap-1 text-[10px] md:text-base">
-              <GiCheckMark classname="text-[#FF9C01]" />
+            </div>
+            <div className="flex items-center gap-1 text-[10px] md:text-base">
+              <GiCheckMark/>
               <h2 className="font-bold   tracking-wide">TYPESCRIPT</h2>
-            </h1>
-            <h1 className="flex items-center gap-1 text-[10px] md:text-base">
+            </div>
+            <div className="flex items-center gap-1 text-[10px] md:text-base">
               <GiCheckMark /> <h2 className="font-bold tracking-wide">HTML5</h2>
-            </h1>
+            </div>
           </div>
           <div className="flex flex-row gap-5 pt-2 ">
-            <h1 className="flex items-center gap-1 text-[10px] md:text-base">
-              <GiCheckMark classname="text-[#FF9C01]" />
+            <div className="flex items-center gap-1 text-[10px] md:text-base">
+              <GiCheckMark />
               <h2 className="font-bold tracking-wide">REACT ROUTER</h2>
-            </h1>
-            <h1 className="flex items-center gap-1 text-[10px] md:text-base">
-              <GiCheckMark classname="text-[#FF9C01]" />
+            </div>
+            <div className="flex items-center gap-1 text-[10px] md:text-base">
+              <GiCheckMark  />
               <h2 className="font-bold tracking-wide">TAILWIND CSS</h2>
-            </h1>
-            <h1 className="flex items-center  gap-1 text-[10px] md:text-base">
+            </div>
+            <div className="flex items-center  gap-1 text-[10px] md:text-base">
               <GiCheckMark />
               <h2 className="font-bold tracking-wide">Material UI</h2>
-            </h1>
+            </div>
           </div>
         </div>
       </div>

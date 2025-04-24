@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import About from "./About";
+import Contact from "./Footer";
 
 const Home = () => {
   const titleName = "-I'M Liton Ali";
@@ -47,7 +48,7 @@ const Home = () => {
         </div>
       </div>
       <About/>
-     
+     <Contact/>
     </section>
   );
 };
