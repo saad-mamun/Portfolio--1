@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import About from "./About";
 import Contact from "./Footer";
+import Footerone from "./Footerone";
 
 const Home = () => {
   const titleName = "-I'M Liton Ali";
@@ -49,6 +50,7 @@ const Home = () => {
       </div>
       <About/>
      <Contact/>
+     <Footerone/>
     </section>
   );
 };

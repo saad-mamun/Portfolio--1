@@ -5,6 +5,7 @@ import Contact from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Projects from "./components/projects/Projects";
+
 const App = () => {
   return (
     <BrowserRouter>

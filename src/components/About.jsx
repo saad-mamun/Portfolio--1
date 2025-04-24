@@ -134,7 +134,7 @@ const About = () => {
           </div>
         </div>
         {/* skills section */}
-        <div className="container mx-auto flex flex-col items-center pt-6 md:pt-12 lg:pt-20">
+        <div className="container mx-auto flex flex-col items-center pt-6 md:pt-12 lg:pt-20 lg:pb-10">
           <h1 className="font-semibold text-base md:text-lg lg:text-2xl py-2 md:py-4 lg:py-6">
             I've been working with the following technologies
             <span>
