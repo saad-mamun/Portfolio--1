@@ -8,17 +8,17 @@ const Home = () => {
   const titleName = "-I'M Liton Ali";
 
   const aboutMe =
-    "I'm A Nigerian based webs designer and front-end developer focused on creating a clean & user friendly experiences. I am passionate about building excellent software that improves the lives of those around me.";
+    "I'm Liton, a frontend developer with 1 year of experience building responsive and dynamic web applications. I specialize in Next.js, React.js, JavaScript, Tailwind CSS, Material UI, CSS, and HTML. I'm passionate about creating clean, user-friendly interfaces and continuously improving my skills to deliver high-quality web experiences.";
 
   return (
     <section>
       <div className="bg-[#f1e8e6] pb-5">
-        <div className=" container mx-auto flex lg:flex-row flex-col items-center justify-between gap-1 md:gap-5 lg:gap-8 pt-3 md:pt-12 lg:pt-20  md:px-1 px-2">
+        <div className=" container mx-auto flex lg:flex-row flex-col items-center justify-between gap-1 md:gap-5  pt-3 md:pt-12 lg:pt-20  md:px-1 px-2">
           {/* left Section */}
           <div>
             <img
               className="w-[198px] h-[223px] md:w-[400px] md:h-[450px] lg:w-[617px] lg:h-[696px]"
-              src="src\assets\main.png"
+              src="src\assets\home.jpg"
               alt="Profile Logo"
             />
           </div>
@@ -32,7 +32,7 @@ const Home = () => {
                 FrontEnd Developer
               </span>
             </div>
-            <p className="w-[217px] md:w-[400px] lg:max-w-[597px] text-[9px] md:text-[18px] lg:text-[20px]">
+            <p className="w-[217px] md:w-[400px] lg:max-w-[597px] text-[9px] md:text-[17px] lg:text-[19px] opacity-90">
               {aboutMe}
             </p>
             <div>
