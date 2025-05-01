@@ -18,7 +18,7 @@ const Home = () => {
           <div>
             <img
               className="w-[198px] h-[223px] md:w-[400px] md:h-[450px] lg:w-[617px] lg:h-[696px]"
-              src="src\assets\home.jpg"
+              src="src\assets\react.svg"
               alt="Profile Logo"
             />
           </div>
