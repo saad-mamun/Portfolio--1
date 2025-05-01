@@ -18,7 +18,7 @@ const Home = () => {
           <div>
             <img
               className="w-[198px] h-[223px] md:w-[400px] md:h-[450px] lg:w-[617px] lg:h-[696px]"
-              src="src\assets\react.svg"
+              src="https://scontent.fdac41-2.fna.fbcdn.net/v/t39.30808-6/472138886_1109627913947233_8736298291278056247_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEQN3IJc8bmQo0i17T9tJwNnQmIdBQLxhidCYh0FAvGGJTWMC3aCsKGrUgHV3uzKxS4brhLKJpz_b6mxYRT8G-e&_nc_ohc=mtoAiXGWD-oQ7kNvwGnY7DY&_nc_oc=AdlnRoh99P2mU7baHQCSoiELatMK68xNpB2uGeszCpW6DvWjSPQMSnBTxeOR9hyeV-I&_nc_zt=23&_nc_ht=scontent.fdac41-2.fna&_nc_gid=N11xDGxURyPHIK82D8J5tQ&oh=00_AfGaiYKB7MnZnTAcM9Zx-EGOfa6CNLrx2QRnRGS3ZdDrUA&oe=68195EE3"
               alt="Profile Logo"
             />
           </div>
@@ -48,9 +48,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <About/>
-     <Contact/>
-     <Footerone/>
+      <About />
+      <Contact />
+      <Footerone />
     </section>
   );
 };
